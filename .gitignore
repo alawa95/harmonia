@@ -1,0 +1,14 @@
+# Dossiers à ignorer
+node_modules/
+.next/
+out/
+build/
+.vercel
+
+# Fichiers d'environnement
+.env.local
+.env
+
+# Système
+.DS_Store
+Thumbs.db
