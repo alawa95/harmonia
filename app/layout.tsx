@@ -17,11 +17,9 @@ export default function RootLayout({ children }) {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              <script>
-                document.getElementById('theme-toggle').addEventListener('click', () => {
-                  document.documentElement.classList.toggle('dark');
-                });
-              </script>
+              document.getElementById('theme-toggle').addEventListener('click', () => {
+                document.documentElement.classList.toggle('dark');
+              });
             `,
           }}
         />
